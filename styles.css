@@ -1,4 +1,9 @@
 body { margin:0px; }
+
+div
+{
+  flex-flow:column;
+}
         
 .wrapper > * {
   margin: 10px;
@@ -8,14 +13,14 @@ body { margin:0px; }
 }
 .wrapper { 
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 .wrapper > * { 
   flex: 1; 
 }
 .wrapper header, 
 .wrapper footer { 
-  flex: 100 1 0vw; 
+  flex: 0 1 100vw; 
 }
 .wrapper { min-height: 100vh; }
 
